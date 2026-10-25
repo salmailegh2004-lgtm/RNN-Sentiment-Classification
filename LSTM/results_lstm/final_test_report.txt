@@ -1,0 +1,11 @@
+Best configuration: hidden_size-64
+
+                 precision    recall  f1-score   support
+
+ Negative (0-4)     0.3989    0.5809    0.4730       241
+  Neutral (5-7)     0.2662    0.2846    0.2750       246
+Positive (8-10)     0.6398    0.4918    0.5561       549
+
+       accuracy                         0.4633      1036
+      macro avg     0.4349    0.4524    0.4347      1036
+   weighted avg     0.4950    0.4633    0.4700      1036

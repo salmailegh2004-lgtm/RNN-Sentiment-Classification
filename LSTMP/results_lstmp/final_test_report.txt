@@ -1,0 +1,11 @@
+Best configuration: freeze_embeddings-False
+
+                 precision    recall  f1-score   support
+
+ Negative (0-4)     0.4239    0.5892    0.4931       241
+  Neutral (5-7)     0.2968    0.3740    0.3309       246
+Positive (8-10)     0.6419    0.4572    0.5340       549
+
+       accuracy                         0.4681      1036
+      macro avg     0.4542    0.4735    0.4527      1036
+   weighted avg     0.5093    0.4681    0.4763      1036

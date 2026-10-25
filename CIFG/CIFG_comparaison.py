@@ -36,7 +36,7 @@ PAD_TOKEN = "<pad>"
 UNK_TOKEN = "<unk>"
 TOKEN_PATTERN = re.compile(r"\b\w+\b", flags=re.UNICODE)
 
-RESULTS_DIR = Path("results_v2")  # dossier séparé : les résultats v1 ne sont pas écrasés
+RESULTS_DIR = Path("results_cifg")  # dossier séparé : les résultats v1 ne sont pas écrasés
 HISTORY_DIR = RESULTS_DIR / "histories"
 
 
@@ -574,7 +574,7 @@ def parse_args():
     ap.add_argument("--compare", action="append", default=[], metavar="LABEL=FOLDER",
                     help="dossier de résultats d'une autre architecture (option répétable)")
     ap.add_argument("--plots-only", action="store_true",
-                    help="ne pas réentraîner : refait seulement les graphiques à partir de results_v2/")
+                    help="ne pas réentraîner : refait seulement les graphiques à partir de results_cifg/")
     args, unknown = ap.parse_known_args()
     return args
 

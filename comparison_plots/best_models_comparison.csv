@@ -1,0 +1,4 @@
+architecture,best_config,params,train_accuracy,val_accuracy,test_accuracy,train_f1,val_f1,test_f1,train_precision,val_precision,test_precision,train_recall,val_recall,test_recall
+CIFG,freeze_embeddings-False,674867,0.5767,0.4711,0.5125,0.5571,0.4456,0.4906,0.5528,0.4441,0.4873,0.5834,0.4685,0.5021
+LSTM,hidden_size-64,42435,0.5489,0.4421,0.4633,0.5198,0.4089,0.4347,0.5152,0.4112,0.4349,0.5444,0.4375,0.4524
+LSTMP,freeze_embeddings-False,677555,0.5489,0.4164,0.4681,0.5277,0.3979,0.4527,0.529,0.4059,0.4542,0.5542,0.4288,0.4735
